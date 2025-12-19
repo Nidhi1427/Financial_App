@@ -1,7 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Kobodrop from "../assets/logos/FinApp_icon_logo.png";
-import ButtonLink from "../common/ButtonLink";
+
 
 function Nav() {
   const textLinkClasses = "text-gray-500 hover:text-gray-900 active:text-gray-400";

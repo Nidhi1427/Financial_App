@@ -15,7 +15,7 @@ import LogoWall from "../common/LogoWall";
 
 function Partners() {
   return (
-    <section id="partners" className="mt-20 bg-orange-50 py-20">
+    <section id="partners" className="mt-20 bg-white-50 py-20">
   <div className="flex flex-col items-center">
     <article className="mb-10 w-full text-center">
 

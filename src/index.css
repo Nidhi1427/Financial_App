@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 
@@ -6,8 +6,27 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  @apply bg-gray-400;
+  background: linear-gradient(to bottom right, rgba(30, 58, 138, 0.6) 0%, rgba(79, 70, 229, 0.4) 50%, rgba(15, 23, 42, 0.5) 100%);
   font-family: 'Inter', sans-serif;
+}
+
+
+
+
+/* Remove ALL orange borders, force white everywhere */
+* {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Clean white button borders */
+button, [role="button"], .btn {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  outline-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Glassmorphism card borders */
+.bg-white\/10, .backdrop-blur {
+  border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 @tailwind utilities;
